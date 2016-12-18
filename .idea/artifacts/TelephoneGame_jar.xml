@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TelephoneGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TelephoneGame_jar</output-path>
+    <root id="archive" name="TelephoneGame.jar">
+      <element id="module-output" name="TelephoneGame" />
+    </root>
+  </artifact>
+</component>

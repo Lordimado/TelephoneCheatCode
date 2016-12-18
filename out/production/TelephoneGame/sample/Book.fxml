@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="-5.0" prefHeight="584.0" prefWidth="445.0">
+         <children>
+            <ImageView fitHeight="584.0" fitWidth="445.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@reproduction-interior-lg.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="101.0" layoutY="212.0" mnemonicParsing="false" opacity="0.01" prefHeight="221.0" prefWidth="71.0">
+               <tooltip>
+                  <Tooltip text="Use Phone" />
+               </tooltip>
+            </Button>
+            <Button layoutX="283.0" layoutY="356.0" mnemonicParsing="false" opacity="0.01" prefHeight="64.0" prefWidth="78.0">
+               <tooltip>
+                  <Tooltip text="Montrer carnet de numero" />
+               </tooltip>
+            </Button>
+            <Button layoutX="203.0" layoutY="80.0" mnemonicParsing="false" opacity="0.02" prefHeight="72.0" prefWidth="71.0">
+               <tooltip>
+                  <Tooltip text="Illuminati" />
+               </tooltip>
+            </Button>
+            <ImageView fitHeight="342.0" fitWidth="445.0" layoutY="152.0" pickOnBounds="true">
+               <image>
+                  <Image url="@book.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="40.0" layoutY="204.0" prefHeight="244.0" prefWidth="176.0" text="Emergency    911&#10;Dr.Henry        555-161&#10;Wife               555-522&#10;John               555-685&#10;Imed              555-055&#10;Diana             555-128&#10;Elizabeth        555-989&#10;George           555-183 ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="226.0" layoutY="204.0" prefHeight="233.0" prefWidth="192.0" text="University IGMO  555-666&#10;Dr.Assma              555-110&#10;Mother                 555-111&#10;Father                   555-951 ">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="72.0" fitWidth="200.0" layoutX="1.0" layoutY="482.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@fleche.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="4.0" layoutY="492.0" mnemonicParsing="false" onAction="#ToCabine" opacity="0.01" prefHeight="54.0" prefWidth="98.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
